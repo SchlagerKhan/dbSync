@@ -1,0 +1,4 @@
+github "nvzqz/FileKit"
+github "SwiftyJSON/SwiftyJSON"
+github "mcorega/MySqlSwiftNative" == 1.0.10
+github "ankurp/Dollar"

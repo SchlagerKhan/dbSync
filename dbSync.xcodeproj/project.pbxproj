@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E359DBCC1F2E452C0046EC4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359DBCB1F2E452C0046EC4F /* AppDelegate.swift */; };
+		E359DBCE1F2E452C0046EC4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359DBCD1F2E452C0046EC4F /* ViewController.swift */; };
+		E359DBD01F2E452C0046EC4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E359DBCF1F2E452C0046EC4F /* Assets.xcassets */; };
+		E359DBD31F2E452C0046EC4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E359DBD11F2E452C0046EC4F /* Main.storyboard */; };
+		E359DC031F2E66CA0046EC4F /* FileKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E359DC021F2E66CA0046EC4F /* FileKit.framework */; };
+		E359DC041F2E66CA0046EC4F /* FileKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E359DC021F2E66CA0046EC4F /* FileKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E359DC081F2E66DE0046EC4F /* FileKit.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = E359DC071F2E66DE0046EC4F /* FileKit.framework.dSYM */; };
+		E359DC171F2F33450046EC4F /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = E359DC161F2F33450046EC4F /* Cartfile */; };
+		E359DC191F2F35470046EC4F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E359DC181F2F35470046EC4F /* SwiftyJSON.framework */; };
+		E359DC1A1F2F35470046EC4F /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E359DC181F2F35470046EC4F /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E359DC1C1F2F355D0046EC4F /* SwiftyJSON.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = E359DC1B1F2F355D0046EC4F /* SwiftyJSON.framework.dSYM */; };
+		E359DC1E1F2F3E1D0046EC4F /* Dollar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E359DC1D1F2F3E1D0046EC4F /* Dollar.framework */; };
+		E359DC1F1F2F3E1D0046EC4F /* Dollar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E359DC1D1F2F3E1D0046EC4F /* Dollar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E359DC211F2F3E300046EC4F /* Dollar.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = E359DC201F2F3E300046EC4F /* Dollar.framework.dSYM */; };
+		E359DC231F2F511A0046EC4F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359DC221F2F511A0046EC4F /* Helper.swift */; };
+		E359DC251F2F60280046EC4F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359DC241F2F60280046EC4F /* Settings.swift */; };
+		E359DC271F2F6C890046EC4F /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359DC261F2F6C890046EC4F /* Database.swift */; };
+		E359DC291F2F6E140046EC4F /* GroupModalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359DC281F2F6E140046EC4F /* GroupModalController.swift */; };
+		E359DC2B1F30963B0046EC4F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E359DC2A1F30963A0046EC4F /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E359DC051F2E66CA0046EC4F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E359DC1A1F2F35470046EC4F /* SwiftyJSON.framework in Embed Frameworks */,
+				E359DC041F2E66CA0046EC4F /* FileKit.framework in Embed Frameworks */,
+				E359DC1F1F2F3E1D0046EC4F /* Dollar.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E359DC061F2E66CE0046EC4F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				E359DC211F2F3E300046EC4F /* Dollar.framework.dSYM in CopyFiles */,
+				E359DC1C1F2F355D0046EC4F /* SwiftyJSON.framework.dSYM in CopyFiles */,
+				E359DC081F2E66DE0046EC4F /* FileKit.framework.dSYM in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E359DBC81F2E452C0046EC4F /* dbSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dbSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E359DBCB1F2E452C0046EC4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E359DBCD1F2E452C0046EC4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E359DBCF1F2E452C0046EC4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E359DBD21F2E452C0046EC4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E359DBD41F2E452C0046EC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E359DC021F2E66CA0046EC4F /* FileKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FileKit.framework; path = Carthage/Build/Mac/FileKit.framework; sourceTree = "<group>"; };
+		E359DC071F2E66DE0046EC4F /* FileKit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = FileKit.framework.dSYM; path = Carthage/Build/Mac/FileKit.framework.dSYM; sourceTree = "<group>"; };
+		E359DC161F2F33450046EC4F /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		E359DC181F2F35470046EC4F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/Mac/SwiftyJSON.framework; sourceTree = "<group>"; };
+		E359DC1B1F2F355D0046EC4F /* SwiftyJSON.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SwiftyJSON.framework.dSYM; path = Carthage/Build/Mac/SwiftyJSON.framework.dSYM; sourceTree = "<group>"; };
+		E359DC1D1F2F3E1D0046EC4F /* Dollar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Dollar.framework; path = Carthage/Build/Mac/Dollar.framework; sourceTree = "<group>"; };
+		E359DC201F2F3E300046EC4F /* Dollar.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Dollar.framework.dSYM; path = Carthage/Build/Mac/Dollar.framework.dSYM; sourceTree = "<group>"; };
+		E359DC221F2F511A0046EC4F /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		E359DC241F2F60280046EC4F /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		E359DC261F2F6C890046EC4F /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		E359DC281F2F6E140046EC4F /* GroupModalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupModalController.swift; sourceTree = "<group>"; };
+		E359DC2A1F30963A0046EC4F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E359DBC51F2E452C0046EC4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E359DC191F2F35470046EC4F /* SwiftyJSON.framework in Frameworks */,
+				E359DC031F2E66CA0046EC4F /* FileKit.framework in Frameworks */,
+				E359DC1E1F2F3E1D0046EC4F /* Dollar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E359DBBF1F2E452C0046EC4F = {
+			isa = PBXGroup;
+			children = (
+				E359DC2A1F30963A0046EC4F /* .gitignore */,
+				E359DC201F2F3E300046EC4F /* Dollar.framework.dSYM */,
+				E359DC1D1F2F3E1D0046EC4F /* Dollar.framework */,
+				E359DC1B1F2F355D0046EC4F /* SwiftyJSON.framework.dSYM */,
+				E359DC181F2F35470046EC4F /* SwiftyJSON.framework */,
+				E359DC161F2F33450046EC4F /* Cartfile */,
+				E359DC071F2E66DE0046EC4F /* FileKit.framework.dSYM */,
+				E359DC021F2E66CA0046EC4F /* FileKit.framework */,
+				E359DBCA1F2E452C0046EC4F /* dbSync */,
+				E359DBC91F2E452C0046EC4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E359DBC91F2E452C0046EC4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E359DBC81F2E452C0046EC4F /* dbSync.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E359DBCA1F2E452C0046EC4F /* dbSync */ = {
+			isa = PBXGroup;
+			children = (
+				E359DBCB1F2E452C0046EC4F /* AppDelegate.swift */,
+				E359DBCD1F2E452C0046EC4F /* ViewController.swift */,
+				E359DBCF1F2E452C0046EC4F /* Assets.xcassets */,
+				E359DBD11F2E452C0046EC4F /* Main.storyboard */,
+				E359DBD41F2E452C0046EC4F /* Info.plist */,
+				E359DC221F2F511A0046EC4F /* Helper.swift */,
+				E359DC241F2F60280046EC4F /* Settings.swift */,
+				E359DC261F2F6C890046EC4F /* Database.swift */,
+				E359DC281F2F6E140046EC4F /* GroupModalController.swift */,
+			);
+			path = dbSync;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E359DBC71F2E452C0046EC4F /* dbSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E359DBD71F2E452C0046EC4F /* Build configuration list for PBXNativeTarget "dbSync" */;
+			buildPhases = (
+				E359DBC41F2E452C0046EC4F /* Sources */,
+				E359DBC51F2E452C0046EC4F /* Frameworks */,
+				E359DBC61F2E452C0046EC4F /* Resources */,
+				E359DC051F2E66CA0046EC4F /* Embed Frameworks */,
+				E359DC061F2E66CE0046EC4F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dbSync;
+			productName = dbSync;
+			productReference = E359DBC81F2E452C0046EC4F /* dbSync.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E359DBC01F2E452C0046EC4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SchlagerKhan;
+				TargetAttributes = {
+					E359DBC71F2E452C0046EC4F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E359DBC31F2E452C0046EC4F /* Build configuration list for PBXProject "dbSync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E359DBBF1F2E452C0046EC4F;
+			productRefGroup = E359DBC91F2E452C0046EC4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E359DBC71F2E452C0046EC4F /* dbSync */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E359DBC61F2E452C0046EC4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E359DC2B1F30963B0046EC4F /* .gitignore in Resources */,
+				E359DC171F2F33450046EC4F /* Cartfile in Resources */,
+				E359DBD01F2E452C0046EC4F /* Assets.xcassets in Resources */,
+				E359DBD31F2E452C0046EC4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E359DBC41F2E452C0046EC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E359DC231F2F511A0046EC4F /* Helper.swift in Sources */,
+				E359DC291F2F6E140046EC4F /* GroupModalController.swift in Sources */,
+				E359DC251F2F60280046EC4F /* Settings.swift in Sources */,
+				E359DC271F2F6C890046EC4F /* Database.swift in Sources */,
+				E359DBCE1F2E452C0046EC4F /* ViewController.swift in Sources */,
+				E359DBCC1F2E452C0046EC4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E359DBD11F2E452C0046EC4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E359DBD21F2E452C0046EC4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E359DBD51F2E452C0046EC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E359DBD61F2E452C0046EC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		E359DBD81F2E452C0046EC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = dbSync/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = schlagerkhan.dbSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E359DBD91F2E452C0046EC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = dbSync/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = schlagerkhan.dbSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E359DBC31F2E452C0046EC4F /* Build configuration list for PBXProject "dbSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E359DBD51F2E452C0046EC4F /* Debug */,
+				E359DBD61F2E452C0046EC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E359DBD71F2E452C0046EC4F /* Build configuration list for PBXNativeTarget "dbSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E359DBD81F2E452C0046EC4F /* Debug */,
+				E359DBD91F2E452C0046EC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E359DBC01F2E452C0046EC4F /* Project object */;
+}
