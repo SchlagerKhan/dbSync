@@ -1,0 +1,12 @@
+[submodule "Frameworks/Externals/FileKit"]
+	path = Frameworks/Externals/FileKit
+	url = https://github.com/nvzqz/FileKit.git
+[submodule "Frameworks/Externals/SwiftyJSON"]
+	path = Frameworks/Externals/SwiftyJSON
+	url = https://github.com/SwiftyJSON/SwiftyJSON.git
+[submodule "Frameworks/Externals/Dollar"]
+	path = Frameworks/Externals/Dollar
+	url = https://github.com/ankurp/Dollar.git
+[submodule "Frameworks/Externals/MySqlSwiftNative"]
+	path = Frameworks/Externals/MySqlSwiftNative
+	url = https://github.com/mcorega/MySqlSwiftNative.git
